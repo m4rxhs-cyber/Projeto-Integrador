@@ -6,13 +6,11 @@
 
 * List Candidates
 * Voting for President
+* Voting for Governor
+* Voting null and blank
+* Counting of votes
 * To turn off the eletronic ballot box
-## This features are in developing:
 
-- To vote for Governor
-- To vote null
-- To vote blank
-- Counting of votes
 >## Technologies Used:
 
 <table>
@@ -23,11 +21,13 @@
 
 >## How to run the application:
 
-1) Click in folder dist
-2) Click in "UrnaV1.exe
-3) Click in download
+1) click on the desired version 
+2) Click in folder dist
+3) Click in urnaV*.exe
+4) Click in download
+5) Open the shell
 4) Run shell: cd and where you saved the UrnaV1.exe
-5) Run shell: UrnaV1.exe
-6) Choose the option(1 for list caindidates, 2 for to vote, 3 (it's not running yet) and 4 for to turn off the eletronic ballot box)
-7) Type the Candidate's number
+5) Run shell: urnaV*.exe
+6) Choose the option(1 for list caindidates, 2 to start voting, 3 for the calculation of votes and 4 for to turn off the eletronic ballot box)
+7) Type the Candidate's number or 'B' to vote in blank or enter a candidate number that does not exist to vote null
 8) Confirm your vote (s for yes and n for not)
