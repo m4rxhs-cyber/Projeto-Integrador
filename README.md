@@ -21,7 +21,7 @@
 
 >## How to run the application:
 
-1) click on the desired version 
+1) Click on the desired version 
 2) Click in folder dist
 3) Click in urnaV*.exe
 4) Click in download
