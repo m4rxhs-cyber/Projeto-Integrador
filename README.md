@@ -31,3 +31,5 @@
 6) Choose the option(1 for list caindidates, 2 to start voting, 3 for the calculation of votes and 4 for to turn off the eletronic ballot box)
 7) Type the Candidate's number or 'B' to vote in blank or enter a candidate number that does not exist to vote null
 8) Confirm your vote (s for yes and n for not)
+
+![Cmder-2021-10-18-13-18-49](https://user-images.githubusercontent.com/84638124/137770586-17e1e927-72ff-4a44-a656-f5e130ef5d1d.gif)
