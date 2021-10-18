@@ -34,4 +34,5 @@
 7) Type the Candidate's number or 'B' to vote in blank or enter a candidate number that does not exist to vote null
 8) Confirm your vote (s for yes and n for not)
 
-![Cmder-2021-10-18-13-18-49](https://user-images.githubusercontent.com/84638124/137770586-17e1e927-72ff-4a44-a656-f5e130ef5d1d.gif)
+![Cmder-2021-10-18-13-44-04](https://user-images.githubusercontent.com/84638124/137774015-9cf1d4d2-6698-4679-b977-86f32019842b.gif)
+
