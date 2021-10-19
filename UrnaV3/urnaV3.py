@@ -41,9 +41,7 @@ votoEmBrancoPres = 0
 #variavel para salvar a opcao do menu
 opcaoMenu = 0
 
-while opcaoMenu != 4:
-
-    def imprimeMenu():
+def imprimeMenu():
         print("\n+---------URNA ELETRÔNICA---------+")
         print("\n|  Qual a opção voce deseja?      |\n")
         print("+---------------------------------+")
@@ -53,10 +51,27 @@ while opcaoMenu != 4:
         print("| 4 - Desligar a urna             |")
         print("+---------------------------------+\n")
 
+def recebeOpMenu():
+    return(int(input("Digite a opção desejada: ")))
 
-    def recebeOpMenu():
-        return(int(input("Digite a opção desejada: ")))
+#função de confirmação dos votos
+def confirmarVoto():
+            
+    confirmar = input("\nConfirmar voto? (s ou n): ").lower()
 
+    if confirmar == 's':
+        print("\nVoto registrado!")
+        return True
+
+    elif confirmar == 'n':
+        print("\nVotação cancelada!")
+        return False
+
+    else:
+        print("\nOpção inválida!")
+        return False
+            
+while opcaoMenu != 4:
 
     imprimeMenu()
     opcaoMenu = recebeOpMenu()
@@ -66,11 +81,11 @@ while opcaoMenu != 4:
         print("\n+-----------CANDIDATOS------------+")
         print("|           Governância           |")
         print("|                                 |")
-        print("| 10 - Morpheus                   |")
-        print("| 11 - Neo                        |")
-        print("| 12 - Cypher                     |")
-        print("| 13 - Trinity                    |")
-        print("| 14 - Apoc                       |")
+        print("| 10 - %s                   |" %(nomeGov10))
+        print("| 11 - %s                        |" %(nomeGov11))
+        print("| 12 - %s                     |" %(nomeGov12))
+        print("| 13 - %s                    |" %nomeGov13)
+        print("| 14 - %s                       |" %(nomeGov14))
         print("|                                 |")
         print("|         Presidência             |")
         print("|                                 |")
@@ -85,23 +100,6 @@ while opcaoMenu != 4:
         
          #Decisão do candidato à goverância
         votoGov = input("\nDigite o número do candidato à governador (ou B para Em Branco): ").upper()
-
-        #função de confirmação dos votos
-        def confirmarVoto():
-            
-            confirmar = input("\nConfirmar voto? (s ou n): ").lower()
-
-            if confirmar == 's':
-                print("\nVoto registrado!")
-                return True
-
-            elif confirmar == 'n':
-                print("\nVotação cancelada!")
-                return False
-
-            else:
-                print("\nOpção inválida!")
-                return False
 
         #registros de cada voto para governador
         if votoGov == 'B':
