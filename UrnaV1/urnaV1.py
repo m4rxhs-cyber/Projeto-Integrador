@@ -26,11 +26,11 @@ votoPres4 = 0
 #lista dos candidatos
 if opcao == 1:
     print("\n+-----------CANDIDATOS------------+")
-    print("| 0 - Marina Silva                |")
-    print("| 1 - Charlie Brown Junior        |")
-    print("| 2 - Fiuk                        |")
-    print("| 3 - Elon Musk                   |")
-    print("| 4 - Delegado Da Cunha           |")
+    print("| 0 - %s                |" %(nomePres0))
+    print("| 1 - %s        |" %(nomePres1))
+    print("| 2 - %s                        |" %(nomePres2))
+    print("| 3 - %s                   |" %(nomePres3))
+    print("| 4 - %s           |" %(nomePres4))
     print("+---------------------------------+\n")
 
 #escolha do candidato
