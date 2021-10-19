@@ -162,8 +162,8 @@ while opcao !=4:
                 print("\nOpção inválida!")
 
         #Para caso o candidato escolhido seja o 14
-        elif votoGov14 == '14':
-            print("Candidato escolhido: %s"%(nomeGov14))
+        elif votoGov == '14':
+            print("Candidato escolhido: %s" %(nomeGov14))
             #confirmação do voto
             confirmar = input("\nConfirmar voto? (s ou n): ")
             
