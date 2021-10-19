@@ -11,7 +11,7 @@
 * Voting for Governor
 * Voting null and blank
 * Counting of votes
-* shutdown the eletronic ballot box
+* Shutdown the eletronic ballot box
 
 >## Technologies Used:
 
