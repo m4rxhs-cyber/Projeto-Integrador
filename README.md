@@ -28,7 +28,7 @@
 3) Click in urnaV*.exe
 4) Click in download
 5) Open the shell
-4) Run shell: cd and where you saved the UrnaV1.exe
+4) Run shell: cd and where you saved the urnaV*.exe
 5) Run shell: urnaV*.exe
 6) Choose the option(1 for list caindidates, 2 to start voting, 3 for the calculation of votes and 4 for to turn off the eletronic ballot box)
 7) Type the Candidate's number or 'B' to vote in blank or enter a candidate number that does not exist to vote null
