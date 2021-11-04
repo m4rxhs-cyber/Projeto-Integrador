@@ -12,5 +12,3 @@ def imprimeMenu():
 
 def recebeOpMenu():
     return(int(input("Digite a opção desejada: ")))
-
-
