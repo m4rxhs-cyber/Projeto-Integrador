@@ -25,3 +25,4 @@ while opcaoMenu != 4:
         
     else:
         print("\nOpção inválida!") #opção caso o usuário digite uma opção incorreta do menu
+    
