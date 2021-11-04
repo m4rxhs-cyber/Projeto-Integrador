@@ -12,3 +12,4 @@ def confirmarVoto():
     else:
         print("\nOpção inválida!")
         return False
+    
