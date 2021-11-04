@@ -86,4 +86,5 @@ def votoGovernador():
             Apuracao.votoGov14 += 1
 
     else:
-        Anular.nuloGov()                   
+        Anular.nuloGov()            
+        
