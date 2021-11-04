@@ -43,3 +43,5 @@ def menu():
 | Votos em branco para governador: {votoEmBrancoGov}                   |
 | Votos em branco para presidente: {votoEmBrancoPres}                   |
 +------------------------------------------------------+\n""")
+
+    
