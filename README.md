@@ -1,4 +1,4 @@
-# Eletronic Ballot Box 
+# <center> Eletronic Ballot Box </center> 
 ![Captura de tela 2021-10-18 132716](https://user-images.githubusercontent.com/84638124/137771320-3b4a80d9-1b10-42e0-a1e0-d4d1da9b4c29.png)
 
 ### This is a project for my <a href = "https://unilavras.edu.br/">university<a>, a Eletronic Ballot Box 🖥️
