@@ -1,4 +1,4 @@
-candidatos = {
+governadores = {
     10:{
         'Nome': 'Morpheus',
         'Votos':0},
@@ -13,6 +13,12 @@ candidatos = {
     14:{
         'Nome':'Apoc', 
         'Votos':0},
+    0:{
+        'Nome':'Marina Silva', 
+        'Votos':0},
+}
+
+presidente = {
     0:{
         'Nome':'Marina Silva', 
         'Votos':0},
