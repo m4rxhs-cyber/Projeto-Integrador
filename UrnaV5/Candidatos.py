@@ -41,17 +41,17 @@ def listarCandidatos():
 +-----------CANDIDATOS------------+
 |           Governância           |
 |                                 |
-| 10 - {candidatos[10]['Nome']}                   | 
-| 11 - {candidatos[11]['Nome']}                        |
-| 12 - {candidatos[12]['Nome']}                     |
-| 13 - {candidatos[13]['Nome']}                    |
-| 14 - {candidatos[14]['Nome']}                       |
+| 10 - {governadores[10]['Nome']}                   | 
+| 11 - {governadores[11]['Nome']}                        |
+| 12 - {governadores[12]['Nome']}                     |
+| 13 - {governadores[13]['Nome']}                    |
+| 14 - {governadores[14]['Nome']}                       |
 |                                 |
 |         Presidência             |
 |                                 |
-| 0 - {candidatos[0]['Nome']}                |
-| 1 - {candidatos[1]['Nome']}        |
-| 2 - {candidatos[2]['Nome']}                        |
-| 3 - {candidatos[3]['Nome']}                   |
-| 4 - {candidatos[4]['Nome']}           |
+| 0 - {presidente[0]['Nome']}                |
+| 1 - {presidente[1]['Nome']}        |
+| 2 - {presidente[2]['Nome']}                        |
+| 3 - {presidente[3]['Nome']}                   |
+| 4 - {presidente[4]['Nome']}           |
 +---------------------------------+\n""")
