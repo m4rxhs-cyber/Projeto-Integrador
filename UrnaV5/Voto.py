@@ -15,7 +15,7 @@ def votoPresidente():
         nuloPres()
 
 def votoGovernador():
-    voto = int(input("\nDigite o número do candidato à Presidente (ou 0 para Em Branco): "))
+    voto = int(input("\nDigite o número do candidato à Governador (ou 0 para Em Branco): "))
 
     if voto in governadores:
         print(f"\nCandidato escolhido: {governadores[voto]['Nome']}")
