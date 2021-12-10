@@ -1,24 +1,21 @@
 from Candidatos import governadores, presidente
 import Confirmar
-from Anular import branco, nuloGov, nuloPres
+from Anular import nuloGov, nuloPres
 
 def votoPresidente():
-    voto = input("\nDigite o número do candidato à Presidente (ou B para Em Branco): ").upper()
+    voto = int(input("\nDigite o número do candidato à Presidente (ou 0 para Em Branco): "))
 
     if voto in presidente:
         print(f"\nCandidato escolhido: {presidente[voto]['Nome']}")
-
+        
         if Confirmar.confirmarVoto():
             presidente[voto]['Votos']+= 1
 
     else:
-        print("\nVoto em Branco Registrado!")
-        
-        if Confirmar.confirmarVoto():
-            branco['votoEmBranco']['BrancoGov'] += 1 
+        nuloPres()
 
 def votoGovernador():
-    voto = input("\nDigite o número do candidato à Presidente (ou B para Em Branco): ").upper()
+    voto = int(input("\nDigite o número do candidato à Presidente (ou 0 para Em Branco): "))
 
     if voto in governadores:
         print(f"\nCandidato escolhido: {governadores[voto]['Nome']}")
@@ -27,7 +24,4 @@ def votoGovernador():
             governadores[voto]['Votos']+= 1
 
     else:
-        print("\nVoto em Branco Registrado!")
-        
-        if Confirmar.confirmarVoto():
-            branco['votoEmBranco']['BrancoGov'] += 1
+        nuloGov()
