@@ -30,9 +30,3 @@ nulos = {
         'NuloGov':0,
         'NuloPres':0}
 }
-
-branco = {
-    'votoEmBranco':{
-        'BrancoGov':0,
-        'BrancoPres':0}
-}
