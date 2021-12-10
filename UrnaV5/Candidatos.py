@@ -1,4 +1,8 @@
 governadores = {
+    0:{
+        'Nome':'Voto Em Branco', 
+        'Votos':0},
+    
     10:{
         'Nome': 'Morpheus',
         'Votos':0},
@@ -13,25 +17,26 @@ governadores = {
     14:{
         'Nome':'Apoc', 
         'Votos':0},
-    0:{
-        'Nome':'Marina Silva', 
-        'Votos':0},
 }
 
 presidente = {
     0:{
+        'Nome':'Voto Em Branco', 
+        'Votos':0},
+    
+    1:{
         'Nome':'Marina Silva', 
         'Votos':0},
-    1:{
+    2:{
         'Nome':'Charlie Brown Junior', 
         'Votos':0},
-    2:{
+    3:{
         'Nome':'Fiuk', 
         'Votos':0},
-    3:{
+    4:{
         'Nome':'Elon Musk', 
         'Votos':0},
-    4:{
+    5:{
         'Nome':'Delegado da Cunha', 
         'Votos':0},
 }
@@ -49,9 +54,9 @@ def listarCandidatos():
 |                                 |
 |         Presidência             |
 |                                 |
-| 0 - {presidente[0]['Nome']}                |
-| 1 - {presidente[1]['Nome']}        |
-| 2 - {presidente[2]['Nome']}                        |
-| 3 - {presidente[3]['Nome']}                   |
-| 4 - {presidente[4]['Nome']}           |
+| 1 - {presidente[1]['Nome']}                |
+| 2 - {presidente[2]['Nome']}        |
+| 3 - {presidente[3]['Nome']}                        |
+| 4 - {presidente[4]['Nome']}                   |
+| 5 - {presidente[5]['Nome']}           |
 +---------------------------------+\n""")
